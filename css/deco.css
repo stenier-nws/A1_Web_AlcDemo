@@ -2,6 +2,10 @@ body > header img{
     width:100%;
 }
 
+h2{
+    text-align:center;
+}
+
 article#booktitle, aside#note{
     background-color: lightgrey;
 } 
