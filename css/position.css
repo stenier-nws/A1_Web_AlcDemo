@@ -44,3 +44,22 @@
     }
 }
 
+/* Ecran x-tra large 
+- sous-grille pour les règles
+- règles sur 2 colonnes
+*/
+@media (min-width: 1200px) { 
+    #regulations{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #regulations > h2{
+        grid-column: 1/-1;
+    }
+
+    #regulations > aside{
+        grid-column: 1/-1;
+        grid-row: 10000;
+    }
+}
