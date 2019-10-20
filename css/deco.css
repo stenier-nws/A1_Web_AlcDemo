@@ -20,7 +20,7 @@ nav > ol > li::first-letter{
 
 section#regulations{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcatraz_Island_as_seen_from_the_East.jpg/1280px-Alcatraz_Island_as_seen_from_the_East.jpg");
-    background-repeat: 
+    background-repeat: repeat;
 }
 
 article.rule {
