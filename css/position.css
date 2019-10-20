@@ -9,3 +9,38 @@
         flex-grow: 1;
     }
 }
+
+/* Ecran ordinateur (>=992px) : 
+ - grille de 3 colonnes
+ - en-tête sur 2 colonnes et note aside sur la 3ème
+ - sommaire dans une colonne de 300px et règles sur le reste
+*/
+@media (min-width: 992px) { 
+    body{
+        display:grid;
+        grid-template-columns: 300px 1fr 200px;
+    }
+
+    h1{
+        grid-column: 1 / -1;
+    }
+    
+    body > header{
+        grid-column: 1 / span 2;
+    }
+
+    section#regulations{
+        grid-column: 2 / -1;
+    }
+
+    body > footer{
+        grid-column: 1 / -1;
+        display: flex;
+    }
+
+    body > footer > p + p{
+        text-align: center;
+        flex-grow: 1;
+    }
+}
+
