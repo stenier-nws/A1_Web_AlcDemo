@@ -1,0 +1,11 @@
+/* Mode tablette (> 575.98px) : 
+- image à côté de la présentation */
+@media (min-width: 575.98px){
+    body > header{
+        display: flex;
+    }
+
+    body > header > img{
+        flex-grow: 1;
+    }
+}
